@@ -308,6 +308,7 @@ footer {
   .product-page .product-title {
     font-size: 18px;
     line-height: 24px;
+    text-align: center;
   }
 }
 .product-page .product-title.green {
@@ -315,6 +316,9 @@ footer {
 }
 .product-page .product-title.blue {
   color: #334269;
+}
+.product-page .product-title.red {
+  color: #A80F29;
 }
 .product-page .product-size {
   font-size: 16px;
@@ -327,6 +331,7 @@ footer {
     font-size: 14px;
     line-height: 18px;
     margin-bottom: 12px;
+    text-align: center;
   }
 }
 .product-page .product-size.green {
@@ -335,12 +340,20 @@ footer {
 .product-page .product-size.blue {
   color: #000000;
 }
+.product-page .product-size.red {
+  color: #000;
+}
 .product-page .product-desc {
   font-size: 14px;
   line-height: 19px;
   color: #666666;
   margin-bottom: 0;
   max-width: 400px;
+}
+@media (max-width: 768px) {
+  .product-page .product-desc {
+    text-align: center;
+  }
 }
 .product-page .product .row:not(:last-child) {
   margin-bottom: 60px;
@@ -379,6 +392,7 @@ footer {
   .product-page .snacks-title {
     font-size: 18px;
     line-height: 24px;
+    text-align: center;
   }
 }
 .product-page .snacks-size {
@@ -391,10 +405,19 @@ footer {
   .product-page .snacks-size {
     font-size: 14px;
     line-height: 18px;
+    text-align: center;
+  }
+}
+@media (max-width: 768px) {
+  .product-page .snacks-desc {
+    text-align: center;
   }
 }
 .product-page .syrup {
   padding: 40px 0;
+}
+.product-page .syrup.withbg {
+  background-color: #E4EFFF;
 }
 .product-page .syrup .title {
   text-align: center;
@@ -410,6 +433,24 @@ footer {
     font-size: 22px;
     line-height: 24px;
     margin-bottom: 38px;
+  }
+}
+.product-page .syrup .desc {
+  text-align: center;
+  text-transform: uppercase;
+  color: #000;
+  font-size: 24px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-bottom: 50px;
+  margin-top: 12px;
+}
+@media (max-width: 768px) {
+  .product-page .syrup .desc {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 38px;
+    text-align: center;
   }
 }
 .product-page .syrup-item {

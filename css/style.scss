@@ -343,6 +343,7 @@ footer {
       @media(max-width: 768px) {
         font-size: 18px;
         line-height: 24px;
+        text-align: center;
       }
 
       &.green {
@@ -351,6 +352,10 @@ footer {
 
       &.blue {
         color: #334269;
+      }
+
+      &.red {
+        color: #A80F29;
       }
     }
 
@@ -364,6 +369,7 @@ footer {
         font-size: 14px;
         line-height: 18px;
         margin-bottom: 12px;
+        text-align: center;
       }
 
       &.green {
@@ -373,6 +379,10 @@ footer {
       &.blue {
         color: #000000;
       }
+
+      &.red {
+        color: #000;
+      }
     }
 
     &-desc {
@@ -381,6 +391,10 @@ footer {
       color: #666666;
       margin-bottom: 0;
       max-width: 400px;
+
+      @media(max-width: 768px) {
+        text-align: center;
+      }
     }
 
     .row {
@@ -426,6 +440,7 @@ footer {
       @media(max-width: 768px) {
         font-size: 18px;
         line-height: 24px;
+        text-align: center;
       }
     }
 
@@ -438,12 +453,23 @@ footer {
       @media(max-width: 768px) {
         font-size: 14px;
         line-height: 18px;
+        text-align: center;
+      }
+    }
+
+    &-desc {
+      @media(max-width: 768px) {
+        text-align: center;
       }
     }
   }
 
   .syrup {
     padding: 40px 0;
+
+    &.withbg {
+      background-color: #E4EFFF;
+    }
 
     .title {
       text-align: center;
@@ -458,6 +484,24 @@ footer {
         font-size: 22px;
         line-height: 24px;
         margin-bottom: 38px;
+      }
+    }
+
+    .desc {
+      text-align: center;
+      text-transform: uppercase;
+      color: #000;
+      font-size: 24px;
+      line-height: 28px;
+      font-weight: 700;
+      margin-bottom: 50px;
+      margin-top: 12px;
+
+      @media(max-width: 768px) {
+        font-size: 18px;
+        line-height: 22px;
+        margin-bottom: 38px;
+        text-align: center;
       }
     }
 
