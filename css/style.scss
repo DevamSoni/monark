@@ -193,6 +193,12 @@ header {
   }
 }
 
+.augustino-slider {
+  .owl-nav {
+    text-align: center;
+  }
+}
+
 .owl-carousel {
   .owl-nav {
     @media(max-width:768px) {
@@ -209,6 +215,22 @@ header {
       left: -30px;
       right: -30px;
       transform: translateY(-80%);
+    }
+
+    .nav-btn {
+      width: 32px;
+      height: 12px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: contain;
+
+      &.prev-slide {
+        background-image: url('../images/arrow-left.png');
+      }
+
+      &.next-slide {
+        background-image: url('../images/arrow-right.png');
+      }
     }
   }
 }
@@ -409,6 +431,10 @@ footer {
   .snacks {
     padding: 40px 0;
     background-color: #E4EFFF;
+
+    &.pinkbg {
+      background-color: #fbe7e8;
+    }
 
     .title {
       text-align: center;

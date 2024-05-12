@@ -177,6 +177,10 @@ header a img {
   }
 }
 
+.augustino-slider .owl-nav {
+  text-align: center;
+}
+
 @media (max-width: 768px) {
   .owl-carousel .owl-nav {
     text-align: center;
@@ -192,6 +196,19 @@ header a img {
   left: -30px;
   right: -30px;
   transform: translateY(-80%);
+}
+.owl-carousel .owl-nav .nav-btn {
+  width: 32px;
+  height: 12px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.owl-carousel .owl-nav .nav-btn.prev-slide {
+  background-image: url("../images/arrow-left.png");
+}
+.owl-carousel .owl-nav .nav-btn.next-slide {
+  background-image: url("../images/arrow-right.png");
 }
 
 .instagram {
@@ -363,6 +380,9 @@ footer {
 .product-page .snacks {
   padding: 40px 0;
   background-color: #E4EFFF;
+}
+.product-page .snacks.pinkbg {
+  background-color: #fbe7e8;
 }
 .product-page .snacks .title {
   text-align: center;
