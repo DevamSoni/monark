@@ -303,6 +303,7 @@ footer {
   line-height: 28px;
   font-weight: 700;
   margin-bottom: 8px;
+  text-transform: uppercase;
 }
 @media (max-width: 768px) {
   .product-page .product-title {
@@ -325,6 +326,7 @@ footer {
   line-height: 22px;
   font-weight: 700;
   margin-bottom: 38px;
+  text-transform: uppercase;
 }
 @media (max-width: 768px) {
   .product-page .product-size {
@@ -387,6 +389,7 @@ footer {
   font-weight: 700;
   margin-bottom: 8px;
   color: #334269;
+  text-transform: uppercase;
 }
 @media (max-width: 768px) {
   .product-page .snacks-title {
@@ -400,6 +403,7 @@ footer {
   line-height: 22px;
   font-weight: 700;
   color: #000;
+  text-transform: uppercase;
 }
 @media (max-width: 768px) {
   .product-page .snacks-size {
